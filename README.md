@@ -1,6 +1,6 @@
 <h1 align="center"> TeleMedicina </h1>
 
-<p align="center">A plataforma web para Telemedicina </p>
+<p align="center">plataforma web para Telemedicina </p>
 
 
 <br/><h4 align="center" id="comoRodar">pre-requisitos para iniciar la app</h4>
@@ -23,14 +23,14 @@ npm install
 ```
 
 <h5>5. En postgreSQL crea una DB con las siguientes indicaciones:</h5>
-Nome do BD: <strong>telemedicina</strong><br/>
+DB: <strong>telemedicina</strong><br/>
 Usuario: <strong>postgres</strong><br/>
 Password: <strong>postgres</strong><br/>
 Host: <strong>localhost</strong><br/>
 Port: <strong>5432</strong><br/>
 
 
-<h5>6. Crear las tablas en las DB</h5>
+<h5>6. Crear las tablas en la DB</h5>
 
 ```
 npx knex migrate:latest
